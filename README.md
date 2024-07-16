@@ -13,7 +13,10 @@ The application should be visually appealing and user-friendly while adhering to
  - A member with a non-null linkId is a child (and should not be billed), while a member without a linkId (null) is a parent (with or without children). 
  - If a member is linked to another member, the linked member should be billed (e.g., a child linked to a parent) if they don't have their own link to another member. - The algorithm should detect circular references (e.g., A linked to B linked to A, or A linked to B linked to C linked to A, or A linked to A, B linked to B...). (Members' array provided in the email as a .json format attachment). 
  
-Please make both parts of the test available on GitHub and notify me with a link once it's available. For the second part, it can be a simple additional .ts or .js file, or accessible through a button click on the main application.
+Please make both parts of the test available on GitHub. 
+
+
+For the second part, it can be a simple additional .ts or .js file, or accessible through a button clicked on the main application.
  
 ## Answer these questions:
  
