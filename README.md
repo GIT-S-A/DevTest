@@ -23,6 +23,8 @@ For the second part, it can be a simple additional .ts or .js file, or accessibl
 1.	How would you, in the context of a SaaS application, allow the front-end/browser to obtain data from the server, such as a list of currencies or accounting accounts, without necessarily having access to all internal database fields?
 2.	What are the advantages and possible drawbacks of using GUIDs as IDs (primary keys) in a database table, instead of using integers?
 3.	What is the possible bug in the return of this method in this C# code, knowing that the method should return the current date if no close date is found? (C# code snippet provided): 
+
+```CSharp
 public static DateTime GetClosest(this DateTime dateTime, DateTime[] dates)
 {
     long min = long.MaxValue;
@@ -39,3 +41,4 @@ public static DateTime GetClosest(this DateTime dateTime, DateTime[] dates)
     return closestDate;
 }
  
+```
